@@ -11,9 +11,9 @@ def buscar_lista(animais):
     listas.animal_encontrado = False
     return None, None
 
-if __name__ == "__main__":
-    animal_retornado, indice_retornado = buscar_lista(listas.animais)
-    if listas.animal_encontrado == True:
-        print(f'Animal encontrado: {animal_retornado} na posição {indice_retornado}')
-    else:
-        print('Nenhum animal encontrado')
+
+animal_retornado, indice_retornado = buscar_lista(listas.animais)
+if listas.animal_encontrado == True:
+    print(f'Animal encontrado: {animal_retornado} na posição {indice_retornado}')
+else:
+    print('Nenhum animal encontrado')

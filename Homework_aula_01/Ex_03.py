@@ -11,6 +11,7 @@ media = soma/elementos
 print(f'media: {media}')
 
 print(f'Maior nota: {max(notas)}')
+print(f'Menor nota: {min(notas)}')
 
 acima_media = 0
 for n in notas:

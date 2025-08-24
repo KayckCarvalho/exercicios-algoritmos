@@ -14,4 +14,3 @@ def nMaior():
         print('São iguais')
 
 nMaior()
-        

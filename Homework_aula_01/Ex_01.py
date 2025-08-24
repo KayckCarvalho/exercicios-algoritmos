@@ -25,4 +25,4 @@ Soma pela fórmula: {formula}
     if soma == formula:
         print('Os dois métodos deram o mesmo resultado.')
     else:
-        print('Os resultados não batem — verifique o valor de n.')
+        print('Os resultados não batem verifique o valor de n.')
