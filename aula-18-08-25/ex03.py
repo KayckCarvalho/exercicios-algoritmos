@@ -1,11 +1,17 @@
 # 3. Crie uma função que verifique se um número é primo.
 
-def nprimo():
-    x = 2
-    n = int(input('Digite um numero:\n >>'))
-    if n / 1 == n and n / n == 1 and n % x == 0 and n % 3 == 0 and n % 5 == 0 and n % 7 == 0 and n % 9 == 0:
-        print(f'o numero {n} não é primo')
-    else:
-        print(f'o numero {n} é um numero primo')
-                
-nprimo()
+def eh_primo(n):
+    if n <= 1:
+        return False
+    for i in range(2, int(n**0.5) + 1):
+        if n % i == 0:
+            return False
+    return True
+
+numero = int(input("Digite um número: "))
+
+if eh_primo(numero):
+    print(f"{numero} é primo")
+else:
+    print(f"{numero} não é primo")
+
