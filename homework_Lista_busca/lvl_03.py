@@ -61,7 +61,6 @@ def meu_index(lista, valor):
     raise ValueError(f"{valor} não está na lista")
 
 if __name__ == "__main__":
-    print("Task 11: Busca em Lista de Dicionários")
     pessoas = [
         {"nome": "Ana", "idade": 25},
         {"nome": "João", "idade": 30},
@@ -73,10 +72,8 @@ if __name__ == "__main__":
     else:
         print("Pessoa não encontrada")
 
-    print("\nTask 12: Jogo: Adivinhe o Número")
     jogo_adivinhe_numero()
 
-    print("\nTask 13: Buscar Produtos por Preço")
     produtos = [
         {"nome": "Produto1", "preco": 10},
         {"nome": "Produto2", "preco": 20},
@@ -87,7 +84,6 @@ if __name__ == "__main__":
     encontrados = buscar_produtos_por_preco(produtos, preco_busca)
     print(f"Produtos com preço {preco_busca}: {encontrados}")
 
-    print("\nTask 14: Implementar sua própria função index()")
     lista_exemplo = [1, 2, 3, 4, 5]
     valor_busca = 3
     try:
